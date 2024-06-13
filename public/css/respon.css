@@ -1,0 +1,396 @@
+@media (max-width: 1366px) {
+    html {
+            font-size: 75%;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        width: 80%;
+    }
+}
+
+
+/* tablet */
+@media (max-width: 768px) {
+    .contaner {
+        display: none;
+    }
+
+    .home {
+        background: rgb(245, 245, 245);
+    }
+
+    #burger {
+        display: inline-block;
+        font-size: 40px;
+        color: rgb(5, 4, 4);
+        margin-right: 45px;
+
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background: white;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.6s;
+        border-top-left-radius: 50px;
+    }
+
+    .navbar.active {
+        right: -60px;
+    }
+
+    .navbar a {
+        color: rgb(205, 156, 65);
+        display: block;
+        margin-left: 25px;
+        margin-top: 40px;
+        padding: 0.5rem;
+        font-size: 20px;
+    }
+
+    .home-sci {
+        margin-left: 60px;
+        bottom: 80px;
+    }
+
+    .rumah {
+        height: 900px;
+        background: rgb(245, 245, 245);
+    }
+
+    .atap {
+        width: 240px;
+        height: 265px;
+        margin-left: 7px;
+        margin-top: 50px;
+    }
+    
+    .rumah img {
+        width: 190px;
+        padding:15px;
+        margin-left: 25px;
+    }
+
+    .isi {
+        position: absolute;
+        left: 270px;
+        bottom: -400px;
+        font-size: 17px;
+        margin-bottom: 90px;
+    }
+
+    .skil {
+        width: 210px;
+        height: 180px;
+        position: absolute;
+        top: 300px;
+        left: -260px;
+    }
+
+    .skil h1 {
+        font-size: 19px;
+        padding-top: 13px;
+    }
+
+    .Other h1 {
+        font-size: 19px;
+        padding-top: 13px;
+    }
+
+    .Other {
+        top: 300px;
+        width: 210px;
+        height: 180px;
+        position: absolute;
+        left: -25px;
+    }
+
+    .imah {
+        background: rgb(245, 245, 245);
+        height: 1150px;
+    }
+
+    .kenteng {
+        display: block;
+        margin: 0;
+        position: relative;
+    }
+
+    .kotak {
+        width: 350px;
+        height: 270px;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 190px;
+        transition: transform 0.8s , border-radius 0.8s;
+    }
+
+    .kotak:hover {
+        transform: translate(-50%, -50%) scale(1.1);
+        border-radius: 22%;
+    }
+
+    .kotak h1 {
+        padding-top: 15px;
+        font-size: 30px;
+    }
+
+    .bulet {
+        width: 350px;
+        height: 270px;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 500px;
+        transition: transform 0.8s , border-radius 0.8s;
+    }
+
+    .bulet:hover {
+        transform: translate(-50%, -50%) scale(0.9);
+        border-radius: 22%;
+    }
+
+    .bulet h1 {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+
+    .persegi {
+        width: 350px;
+        height: 270px;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 810px;
+        transition: transform 0.8s , border-radius 0.8s;
+    }
+
+    .persegi:hover {
+        transform: translate(-50%, -50%) scale(1.1);
+        border-radius: 22%;
+    }
+
+    .persegi h1 {
+        padding-top: 15px;
+        font-size: 30px;
+    }
+
+    main {
+        background: rgb(245, 245, 245);
+        height: 800px;
+    }
+
+    .card {
+        width: 75px;
+        height: 75px;
+    }
+
+    .card-front {
+        border-radius: 16px;
+    }
+
+    #memory-game {
+        grid-template-columns: repeat(4, 90px);
+        gap: 9px;
+        margin-top: 80px;
+    }
+
+}
+
+
+/* mobile phone */
+@media (max-width: 468px) {
+    .contaner {
+        display: none;
+    }
+    
+    .home-content {
+        padding: 0px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+
+    }
+
+    #burger {
+        display: inline-block;
+        font-size: 40px;
+        color: rgb(5, 4, 4);
+
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background: white;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.6s;
+        border-top-left-radius: 50px;
+    }
+
+    .navbar.active {
+        right: -60px;
+    }
+
+    .navbar a {
+        color: rgb(205, 156, 65);
+        display: block;
+        margin-left: 25px;
+        margin-top: 40px;
+        padding: 0.5rem;
+        font-size: 17px;
+    }
+
+    .home-sci {
+        margin-left: 30px;
+        bottom: 65px;
+        width: 300px;
+    }
+
+    .atap {
+        width: 200px;
+        height: 245px;
+        margin-left: 7px;
+        margin-top: 50px;
+    }
+    
+    .rumah img {
+        width: 170px;
+        padding:15px;
+        margin-left: 15px;
+    }
+
+    .isi {
+        position: absolute;
+        left: 220px;
+        bottom: -470px;
+        font-size: 13px;
+        margin-bottom: 90px;
+    }
+
+    .skil {
+        width: 160px;
+        height: 140px;
+        position: absolute;
+        top: 300px;
+        left: -210px;
+    }
+
+    .skil h1 {
+        font-size: 19px;
+        padding-top: 13px;
+    }
+
+    .Other h1 {
+        font-size: 19px;
+        padding-top: 13px;
+    }
+
+    .Other {
+        top: 300px;
+        width: 160px;
+        height: 140px;
+        position: absolute;
+        left: -35px;
+    }
+    
+    .kenteng {
+        display: block;
+        margin: 0;
+        position: relative;
+    }
+
+    .kotak {
+        width: 350px;
+        height: 270px;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 190px;
+        transition: transform 0.8s , border-radius 0.8s;
+    }
+
+    .kotak:hover {
+        transform: translate(-50%, -50%) scale(1.1);
+        border-radius: 22%;
+    }
+
+    .kotak h1 {
+        padding-top: 15px;
+        font-size: 30px;
+    }
+
+    .bulet {
+        width: 350px;
+        height: 270px;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 500px;
+        transition: transform 0.8s , border-radius 0.8s;
+    }
+
+    .bulet:hover {
+        transform: translate(-50%, -50%) scale(0.9);
+        border-radius: 22%;
+    }
+
+    .bulet h1 {
+        padding-top: 20px;
+        font-size: 30px;
+    }
+
+    .persegi {
+        width: 350px;
+        height: 270px;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 810px;
+        transition: transform 0.8s , border-radius 0.8s;
+    }
+
+    .persegi:hover {
+        transform: translate(-50%, -50%) scale(1.1);
+        border-radius: 22%;
+    }
+
+    .persegi h1 {
+        padding-top: 15px;
+        font-size: 30px;
+    }
+
+    .card {
+        width: 75px;
+        height: 75px;
+    }
+
+    .card-front {
+        border-radius: 16px;
+    }
+
+    #memory-game {
+        grid-template-columns: repeat(4, 90px);
+        gap: 9px;
+        margin-top: 80px;
+    }
+    
+}
+
+
+
